@@ -1,12 +1,10 @@
 # Market-News
 
-AI Market Desk Bot
-
 Automated financial news monitoring bot that fetches RSS feeds, filters high-impact macro and market events, formats structured briefings, and sends them to Discord via webhook.
 
 Built for traders, analysts and macro desks.
 
-FEATURES
+# 🚀 Features
 
 Monitors multiple financial RSS sources
 
@@ -26,32 +24,45 @@ Caches sent articles to avoid duplicates
 
 Runs continuously (5-minute scan loop)
 
-Bot will:
+▶ How It Works
 
-Scan feeds every 5 minutes
+The bot will:
 
-Filter high-impact events
+- Scan feeds every 5 minutes
 
-Send formatted briefings to Discord
+- Filter high-impact events
 
-🧠 Impact Logic
+- Send formatted briefings to Discord
+
+# 🧠 Impact Logic
 🔥 High Impact
 
-Fed, FOMC, CPI, Inflation, GDP, Payroll, Geopolitical conflicts, Energy shocks
+- Fed
+
+- FOMC
+
+- CPI
+
+- Inflation
+
+- GDP
+
+- Payroll
+
+- Geopolitical conflicts
+
+- Energy shocks
 
 ⚖ Medium Impact
 
-Equities, FX moves, Commodities, Yields
+- Equities
+
+- FX moves
+
+- Commodities
+
+- Yields
 
 ❌ Low Impact
 
-Filtered automatically
-
-🏷 Tag System
-Tag	Meaning
-FX	Currency markets
-RATES	Interest rates & central banks
-EQUITIES	Stock markets
-COMMODITIES	Energy, metals
-GEO	Geopolitics
-MACRO	Economic indicators
+- Filtered automatically
