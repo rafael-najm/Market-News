@@ -12,11 +12,14 @@ from datetime import datetime, timezone
 from datetime import timedelta
 import json
 import os
+from dotenv import load_dotenv
+import os
 
 
 # ================= CONFIG =================
 
-WEBHOOK_URL = "WEBHOOK_AQUI"
+load_dotenv()
+WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
